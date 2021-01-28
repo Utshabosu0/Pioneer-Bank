@@ -1,0 +1,47 @@
+body {
+    padding: 100px;
+}
+
+.submit-area {
+    margin-top: 50px;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px gray;
+}
+
+#transaction-area {
+    display: none;
+}
+
+.Deposit {
+    background-color: slateblue;
+}
+
+.Withdraw {
+    background-color: lightsalmon;
+}
+
+.Balance {
+    background-color: orange;
+}
+
+.status {
+    margin: 0 30px;
+    border-radius: 10px;
+    padding: 30px;
+    color: white;
+}
+
+
+/* // deposit balance
+// const currentDeposit = document.getElementById('currentDeposit').innerText;
+// const currentDepositNumber = parseFloat(currentDeposit);
+// const totalDeposit = depositNumber + currentDepositNumber;
+// document.getElementById('currentDeposit').innerText = totalDeposit;
+
+
+// total balance
+// const currentBalance = document.getElementById('currentBalance').innerText;
+// const currentBalanceNumber = parseFloat(currentBalance);
+// const totalBalance = depositNumber + currentBalanceNumber;
+// document.getElementById('currentBalance').innerText = totalBalance; */
